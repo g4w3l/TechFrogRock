@@ -1,0 +1,129 @@
+/*
+Theme Name: TechFrogRock
+Theme URI: http://www.gawel.fr/techfrogrock
+Description: Theme developed for my blog www.gawel.fr
+Author: Gawel
+Author URI: http://gawel.fr/
+Version: 1.0
+Tags: blog,categories,simple,black,white,css3
+
+License: Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html 
+
+*/
+
+body { background-color:#1e1e1e; }
+
+
+/* GENERAL CONTENT */
+.general_container { background-color:#ffffff; padding-bottom:20px; }
+.header_container { height: 110px; background-image: url('images/header_bar.png'); background-position:top center; background-repeat:repeat-x; color:white; text-align:center; }
+div.header_logo { height: 110px; }
+.header_logo { margin-top:5px; text-align:center; }
+.newsroll { margin-top:20px; margin-bottom:20px; text-align:center; }
+.body_container { background: url('images/body_bg.png') top center repeat-x; }
+.content { background: url('images/content_bg.png') top right repeat-y; }
+.sidebar { height:inherit;}
+
+.floatright { float:right; }
+.floatleft { float:left; }
+
+.zoom { margin-bottom: 0px; }
+
+a { text-decoration: none; color:#000000; font-weight:bold; }
+a:hover { color: #641C0A; }
+
+.nav-next { float:right; }
+
+/* POSTS */
+.post_title {margin-bottom:0px;}
+.postdate { text-align:center;  }
+.comment { margin-bottom:20px; padding:5px; -webkit-border-top-left-radius: 5px;  -webkit-border-top-right-radius: 5px;  -moz-border-radius-topleft: 5px;  -moz-border-radius-topright: 5px;  border-top-left-radius: 5px;  border-top-right-radius: 5px;  border-bottom:#888888 1px dotted; }
+div.comment:hover { background-color:#eeeeee; }
+.comment .date { color:#bbbbbb; font-size:10px; }
+
+.page-title { 	background-color: #444444; 	color:white; 	padding:10px; 	margin-top:10px; 	box-shadow: 0px 3px 5px #888; 	text-shadow: 1px 1px #888; 	font-size:17px;     border-radius: 3px; 	margin-right:15px; }
+
+.thumbnail { width:auto; text-align:center; }
+.thumbnail img { max-width: 630px; height:auto; }
+
+.post { padding-left:10px;}
+
+/* POST CONTENT */
+img.alignleft { margin-right : 5px; float:left;}
+img.alignright { margin-left : 5px; float:right;}
+.aligncenter, div.aligncenter, img.aligncenter { display: block; margin: 10px auto; text-align: center; }
+
+.wp-caption { background-color: #F3F3F3; border: 1px solid #DDDDDD; padding-top: 4px; text-align: center; }
+.wp-caption img { border: medium none; margin: 0; padding: 0; }
+.wp-caption p.wp-caption-text { color: #111111; font-size: 11px; line-height: 17px; margin: 0; padding: 0 4px 5px; }
+
+/* SIDEBAR */
+.sidebar ul { list-style-type: none; padding:0px; margin:0px; }
+.sidebar h4 { margin-top:10px; margin-bottom:5px; text-decoration:underline;}
+
+#searchdiv #s { width:170px; }
+#searchdiv #go { background: url('images/find_icon.png') center center no-repeat; width:19px; height:auto; border: 0px; cursor: pointer; margin-left:-25px; margin-top:3px;}
+
+.twitter_statuses { font-size:10px; padding:5px; background-color:#f0f6fd; -webkit-border-radius: 5px;  -moz-border-radius: 5px; border-radius: 5px; }
+.twitter_statuses li { margin-bottom:5px; padding:5px; }
+
+/* INDEX PAGE */
+.index_title_post { margin-bottom:0px; }
+.index_date_post { color: #bbbbbb; }
+
+/* FOOTER */
+.footer { padding-top:15px; color: #dddddd; }
+.footer a { color:#eeeeee;}
+.footer a:hover { color:#CDD6FD; }
+.footer a:hover .bleu { color:#CDD6FD; }
+.footer a:hover .blanc { color:#FFFFFF; }
+.footer a:hover .rouge { color:#FED0D0; }
+
+/* FORMS */
+input {
+	padding: 5px; text-shadow: 0px 1px 0px #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#dcdcde), to(#ffffff));
+    background: -moz-linear-gradient(top,  #dcdcde,  #ffffff);
+	-webkit-border-radius: 3px;  
+    -moz-border-radius: 3px;  
+    border-radius: 3px;  
+    border: 1px solid #717171;
+}
+
+textarea{
+	padding: 5px; text-shadow: 0px 1px 0px #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#ffffff));
+    background: -moz-linear-gradient(top,  #eeeeee,  #ffffff);
+	-webkit-border-radius: 3px;  
+    -moz-border-radius: 3px;  
+    border-radius: 3px;  
+    border: 1px solid #717171;
+	font-family: Arial, Helvetica, Sans Serif;
+	font-size:12px;
+}
+
+input.submit {
+	padding: 5px; text-shadow: 0px 1px 0px #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dcdcde));
+    background: -moz-linear-gradient(top,  #ffffff,  #dcdcde);
+	-webkit-border-radius: 3px;  
+    -moz-border-radius: 3px;  
+    border-radius: 3px;  
+    border: 1px solid #717171;
+}
+
+input.submit:hover {
+	padding: 5px; text-shadow: 0px 1px 0px #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#dcdcde), to(#ffffff));
+    background: -moz-linear-gradient(top,  #dcdcde,  #ffffff);
+	-webkit-border-radius: 3px;  
+    -moz-border-radius: 3px;  
+    border-radius: 3px;  
+    border: 1px solid #717171;
+}
+
+
+
+
+
